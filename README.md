@@ -1,1 +1,5 @@
 # clustering-masters-project
+
+This study looks to utilize clustering in understanding OHCA dataset by identifying potential clusters. It is hoped to gain better understanding toward the OHCA treatment and the urban-rural disparities, and stimulate discussions into causal relationships and possible interventions to improve rural prehospital cardiac arrest care.
+
+This report conducted a retrospective analysis of a nationwide sample of OHCA incidents. Data were extracted from the 2020 National EMS Information System (NEMSIS) Version 3.4.0 Public-Release Research Dataset, administered by the MaineHealth organization and maintained by the Roux Institute at Northeastern University. This dataset is a convenience sample of data from prehospital patient care reports filed by EMS agencies in the United States (US). The 2020 dataset includes EMS incidents that occurred January 1 to December 31, 2020, submitted from 12,319 EMS agencies located in 50 states and territories. Each record in this dataset corresponds to one EMS unit dispatched to a reported incident. This dataset is de-identified and publicly accessible.
