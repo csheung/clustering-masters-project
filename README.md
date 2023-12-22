@@ -78,7 +78,7 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 
 - Read ther EMS-condition-related columns from respective csv files.
 <br>
-```markdown
+```
 | Column Added | CSV File |
 |--------------|----------|
 | ResuscitationAttempted | "FACTPCRARRESTRESUSCITATION_CA.csv" |
