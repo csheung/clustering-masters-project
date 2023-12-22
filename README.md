@@ -77,6 +77,7 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 - Utilize the "3_impute_bg_df_plus_combine_condition_cols.ipynb" file.
 
 - Read ther EMS-condition-related columns from respective csv files.
+<br>
 | Column Added | CSV File |
 |--------------|----------|
 | ResuscitationAttempted | "FACTPCRARRESTRESUSCITATION_CA.csv" |
@@ -88,7 +89,7 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 | ArrestWitnessedBy | "FACTPCRARRESTWITNESS_CA.csv" |
 | TypeOfCPRProvided | "FACTPCRARRESTCPRPROVIDED_CA.csv" |
 | CardiacRhythmOnArrivalAtDestination | "FACTPCRARRESTRHYTHMDESTINATION_CA.csv" |
-
+<br>
 - Merge them to the background DataFrame based on the primary event key - "PcrKey" column.
 
 
@@ -158,5 +159,3 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 [8] Grubic, A. D., Testori, C., Sterz, F., Herkner, H., Krizanac, D., Weiser, C., ... & Schriefl, C. (2020). Bystander-initiated cardiopulmonary resuscitation and automated external defibrillator use after out-of-hospital cardiac arrest: Uncovering disparities in care and survival across the urban–rural spectrum. Resuscitation Plus, 5, 100054.23.
 
 [9] Callaway CW. Epinephrine for cardiac arrest. Curr Opin Cardiol. 2013 Jan;28(1):36-42. doi: 10.1097/HCO.0b013e32835b0979. PMID: 23196774.
-![image](https://github.com/csheung/clustering-masters-project/assets/99443055/31a3285c-2326-4fb1-a177-ca748733da5e)
-
