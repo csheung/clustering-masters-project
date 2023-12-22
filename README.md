@@ -78,6 +78,7 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 
 - Read ther EMS-condition-related columns from respective csv files.
 <br>
+
 | Column Added | CSV File |
 |--------------|----------|
 | ResuscitationAttempted | "FACTPCRARRESTRESUSCITATION_CA.csv" |
@@ -89,7 +90,8 @@ c. Extract keys of events with medical procedures applied from "FACTPCRPROCEDURE
 | ArrestWitnessedBy | "FACTPCRARRESTWITNESS_CA.csv" |
 | TypeOfCPRProvided | "FACTPCRARRESTCPRPROVIDED_CA.csv" |
 | CardiacRhythmOnArrivalAtDestination | "FACTPCRARRESTRHYTHMDESTINATION_CA.csv" |
-<br>
+
+
 - Merge them to the background DataFrame based on the primary event key - "PcrKey" column.
 
 
